@@ -27,4 +27,12 @@
 ###### autoplay : 이 속성이 설정되면 비디오 로딩 즉시 재생
 ###### loop : 이 속성이 설정되면 반복 재생
   
+#### wk04
+시맨틱 태그 <header> : 머리말 표현, <nav> : 목차를 만듬, <section> : 장 혹은 절을 구성, <article> : 독립적인 콘텐츠 ,
+  <aside> : 노트나 팁 , <footer> : 꼬리말 / 위치와 색, 모양이 자동으로 결정되는 것이 아님
+    / 웹 폼 : 웹 페이지에서 사용자 입력을 받는 폼, 로그인, 등록, 검색, 예약, 쇼핑 등 / 폼 요소 : <input>, <textarea>, <select>
+    / <input type="text"> : 한 줄 짜리 입력 창 , <input type="password"> : 암호 입력 창 , <textarea> : 여러 줄 입력 창
+    / <datalist> : 목록 리스트를 작성하는 태그 / <input type="checkbox" : 체크박스 만들기 , <input type="radio" : 라디오버튼 만들기
+    / <select> : 드롭다운 리스트에 목록 출력, 목록을 선택하는 입력 방식 / 선택형 요소에 <label> 태그 사용 / 색 표현
+  
   
