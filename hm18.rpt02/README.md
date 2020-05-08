@@ -1,6 +1,6 @@
 # hm18의 홈페이지 V2
 ## 나의 홈피에 추가된 내용과 방법들
-###hm18_rpt02 : header 부분을 추가해 hover설정, nav를 추가해 메뉴얼 생성
-### hm18_info : 테이블형식 추가
-### hm18_card : 저번에 한 카드 추가
-### hm18_sitelist : 카드와 동호회 칸 추가
+hm18_rpt02 : header 부분을 추가해 hover설정, nav를 추가해 메뉴얼 생성
+hm18_info : 테이블형식 추가
+hm18_card : 저번에 한 카드 추가
+hm18_sitelist : 카드와 동호회 칸 추가
