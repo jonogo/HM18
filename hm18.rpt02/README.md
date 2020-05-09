@@ -8,3 +8,6 @@
 ##### hm18_checklist : label을 이용 로그인폼을 만듬
 ##### hm18_cc : fieldset 이용
 ##### hm18_daily life : 텍스트에 애니메이션 효과
+##### hm18_datalist , 2 : datalist사용
+
+#### 질문 : datalist를 이용해서 herf 연결하는 법
