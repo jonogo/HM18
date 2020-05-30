@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!-- 이 부분은 주석문입니다. 웹 브라우저는 주석을 화면에 출력하지 않습니다. -->
+<html>
+  <head>
+    <!-- 문서제목, 자바스크립트 코드, CSS 스타일 정의, 메타데이터정의 -->
+    <meta charset="utf-8" />
+    <title>hm18 : Javascript_box.html</title>
+    <style></style>
+    <script>
+        function fill() {
+            this.amount += 2;
+        }
+
+        function consume() {
+            this.amount -= 2;
+        }
+
+        var box = new Object();
+        box.color = "red";
+        box.size = 10;
+        box.amount = 0;
+        box.fill = fill;
+        box.consume = consume;
+
+    </script>
+  </head>
+
+  <body>
+    <!-- 문서의 본문 텍스트, 이미지, 테이블, 자바스크립트 코드, 동영상 등 -->
+    <h3>box 객체를 new Object() 방식으로 작성하기</h3>
+    <hr />
+    <script>
+        document.write("box's amount is " + "<strong>" + box.amount + "</strong>" + "<br>");
+
+        box.fill();
+        document.write("After filling, box's amount is " + "<strong>" + box.amount + "</strong>" +"<br>");
+
+        box.consume();
+        document.write("After consuming, box's amount is " + "<strong>" + box.amount + "</strong>");
+    </script>
+  </body>
+</html>
