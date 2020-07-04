@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!-- 이 부분은 주석문입니다. 웹 브라우저는 주석을 화면에 출력하지 않습니다. -->
+<html>
+
+<head>
+    <!-- 문서제목, 자바스크립트 코드, CSS 스타일 정의, 메타데이터정의 -->
+    <meta charset="utf-8">
+    <title>hmxx : 폼 입력 그룹으로 묶기 - fieldset</title>
+    <style>
+		@keyframes textColorAnimation {
+			0% { color : green;}
+			30% { color : yellowgreen; }
+			50% {color: blue;}
+			100% { color : red;}
+			}
+			span {
+				animation-name: textColorAnimation;
+				animation-duration: 5s;
+				animation-iteration-count: infinite;
+			}
+
+    </style>
+    <script></script>
+</head>
+
+<body>
+    <!-- 문서의 본문 텍스트, 이미지, 테이블, 자바스크립트 코드, 동영상 등 -->
+    <h3>요리 동호회 모집</h3>
+	<hr>
+	
+    <form>
+        <fieldset>
+            <span><legend>회원정보</legend>
+            이메일  : <input type="email"><br>
+			이름    : <input type="text"><br>
+			나이    : <input type="text"><br>
+			동기    : <input type="text"><br>
+			전화번호 : <input type="tel">
+			<label> <span></span>
+				<input type="submit" value="submit">
+			</label>
+        </fieldset>
+        <small>질문 : Tel. 010-****-4443</small></span>
+    </form>
+
+</body>
+
+</html>

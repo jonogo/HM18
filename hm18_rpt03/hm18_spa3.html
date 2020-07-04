@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!--이 부분은 주석문입니다. 웹 브라우저는 주석을 화면에 출력하지 않습니다.-->
+<html>
+	<head>
+		<!-- 문서제목, 자바스크립트 코드, CSS 스타일 정의, 메타데이터정의 -->
+		<meta charset="utf-8">
+		<title> hm18 나의 정보 </title>
+		<style>
+		
+		</style>
+		<script>
+			var newWin = null;
+// 새로 연 윈도우 기억
+function load(URL) {
+  newWin = window.open(
+	URL,
+	"myWin",
+	"left=300,top=200,width=1200,height=900"
+  );
+}
+
+function closeNewWindow() {
+  if (newWin == null || newWin.closed())
+	// 윈도우가 열리지 않았거나 닫힌 경우
+	return;
+  // 윈도우가 없는 경우 그냥 리턴
+  else
+	newWin.close();
+  // 열어 놓은 윈도우 닫기
+}
+		</script>
+	</head>
+
+	<body>
+			<h3>여행가고 싶은 나라 : 스페인</h3>
+			<ul>
+				<li><h3>스페인</h3></li><hr>
+				<img src="media/spa3.PNG">
+				<li><hr><h3>스페인 광장</h3>
+				<P>
+					<a href="https://travel.sygic.com/ko/poi/seupein-gwangjang-poi:3760" target="_self">지도와 설명 보기</a>
+				</P></li>
+				<li><a href="hm18_spa2.html" target="_self">이전으로</a></li>
+				<li><a href="javascript:window.close()"> 현재 윈도우 닫기</a></li>
+		</ul>
+	</body>
+
+</html>
+
